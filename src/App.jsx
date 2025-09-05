@@ -1,11 +1,11 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import About from './components/About'
-import Reservation from './components/Reservation'
-import Hadj from './components/Hadj'
-import Kaaba from './components/Kaaba'
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Reservation from "./components/Reservation";
+import Hadj from "./components/Hadj";
+import Kaaba from "./components/Kaaba";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

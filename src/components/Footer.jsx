@@ -5,14 +5,14 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-r from-[#002c22] via-[#014d3f] to-[#002c22] text-white mt-10 py-12 px-8">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
-
         {/* Company Info */}
         <div>
           <h2 className="text-3xl font-extrabold mb-4 tracking-wide">
             Sa-Voyage
           </h2>
           <p className="leading-7 text-gray-200">
-            Address: Town, City, Country<br />
+            Address: Town, City, Country
+            <br />
             Phone:{" "}
             <a href="tel:xxxxxx" className="hover:underline">
               +xxxxxxxxxx
